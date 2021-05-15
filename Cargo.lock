@@ -819,8 +819,8 @@ dependencies = [
 name = "celestial_mechanics"
 version = "0.1.0"
 dependencies = [
- "anyhow",
  "bevy",
+ "planet",
  "ron",
  "serde",
 ]
@@ -1913,6 +1913,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "kinetics"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "ron",
+ "serde",
+]
+
+[[package]]
 name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2523,6 +2532,17 @@ name = "pkg-config"
 version = "0.3.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3831453b3449ceb48b6d9c7ad7c96d5ea673e9b470a1dc578c2ce6521230884c"
+
+[[package]]
+name = "planet"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bevy",
+ "kinetics",
+ "ron",
+ "serde",
+]
 
 [[package]]
 name = "png"

@@ -1,5 +1,5 @@
 [package]
-name = "celestial_mechanics"
+name = "kinetics"
 version = "0.1.0"
 authors = ["Sean Moss <smoss117@gmail.com>"]
 edition = "2018"
@@ -10,7 +10,6 @@ edition = "2018"
 bevy = "0.5.0"
 serde = {version = "1", features = ["derive"]}
 ron = "0.6.2"
-planet = {path = "planet"}
 
 [profile.dev]
 opt-level = 3
